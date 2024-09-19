@@ -7,10 +7,15 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Resultzone from './pages/Resultzone.jsx';
+import Result from './pages/result.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Resultzone />,
+  },
+  {
+    path: "/result",
+    element: <Result />,
   },
   {
     path: "/test",
