@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
@@ -14,7 +14,16 @@ const Resultzone = () => {
   const [result, setResult] = useState('');
   const [rollNumber, setRollNumber] = useState('');
   const [rollInfo, setRollInfo] = useState('');
+  const [studentName, setStudentName] = useState('');
+  const [students, setStudents] = useState([]);
 
+    // Fetch the JSON data when the component mounts
+    useEffect(() => {
+        fetch('/students.json')
+            .then(response => response.json())
+            .then(data => setStudents(data))
+            .catch(error => console.error('Error fetching student data:', error));
+    }, []);
   // Handle file selection
   const handleFileChange = (e) => {
     setSelectedFile(e.target.files[0]);
@@ -86,11 +95,17 @@ const Resultzone = () => {
     }
   };
 
+  const getStudentName = (rollNumber) => {
+    const student = students.find(student => student.roll === rollNumber);
+    return student ? student.name : 'No student found';
+};
   // Search for roll number information
   const handleRollNumberSearch = () => {
     const rollData = extractRollInfo(pdfText);
     const info = rollData[rollNumber] ? rollData[rollNumber].join(', ') : 'Roll number not found.';
     setRollInfo(info);
+    setStudentName(getStudentName(rollNumber));
+
   };
 
   
@@ -113,6 +128,7 @@ const Resultzone = () => {
   const transformedData = transformData(rollInfo);
 
 
+
   return (
     <div>
       <h2>Upload PDF and Search for Text</h2>
@@ -129,7 +145,7 @@ const Resultzone = () => {
           placeholder="Enter roll number"
         />
         <button type="button" onClick={handleRollNumberSearch}>Search</button>
-        {rollInfo && <p>{rollNumber}: {rollInfo}</p>}
+        {rollInfo && <p>{studentName} -- {rollNumber}: {rollInfo}</p>}
       </div>
       <div>
       <h1>Transformed Data</h1>
