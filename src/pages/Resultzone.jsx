@@ -161,6 +161,8 @@ const Resultzone = () => {
         {
           rollInfo && (
             <div>
+                {semester && <p><strong>Semester:</strong> {semester}</p>}
+                {regulation && <p><strong>Regulation:</strong> {regulation}</p>}
               <h1>{studentName} -- {rollNumber}</h1>
               <div>
                 {transformedData.map((item, index) => (
@@ -186,8 +188,7 @@ const Resultzone = () => {
       )}
 
       {result && <p>{result}</p>}
-      {semester && <p><strong>Semester:</strong> {semester}</p>}
-      {regulation && <p><strong>Regulation:</strong> {regulation}</p>}
+    
     </div>
   );
 };
