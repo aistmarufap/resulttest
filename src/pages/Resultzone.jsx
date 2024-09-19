@@ -16,22 +16,36 @@ const Resultzone = () => {
   const [rollInfo, setRollInfo] = useState('');
   const [studentName, setStudentName] = useState('');
   const [students, setStudents] = useState([]);
+  const [semester, setSemester] = useState('');
+  const [regulation, setRegulation] = useState('');
 
-    // Fetch the JSON data when the component mounts
-    useEffect(() => {
-        fetch('/students.json')
-            .then(response => response.json())
-            .then(data => setStudents(data))
-            .catch(error => console.error('Error fetching student data:', error));
-    }, []);
-  // Handle file selection
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/students.json');
+        if (!response.ok) throw new Error('Network response was not ok');
+        const data = await response.json();
+        setStudents(data);
+      } catch (error) {
+        console.error('Error fetching student data:', error);
+      }
+    };
+    fetchData();
+  }, []);
+
   const handleFileChange = (e) => {
-    setSelectedFile(e.target.files[0]);
-    setResult('');
-    setRollInfo('');
+    const file = e.target.files[0];
+    if (file && file.type === 'application/pdf') {
+      setSelectedFile(file);
+      setResult('');
+      setRollInfo('');
+      setSemester('');
+      setRegulation('');
+    } else {
+      alert('Please upload a valid PDF file.');
+    }
   };
 
-  // Extract text and roll numbers from PDF pages
   const extractTextFromPDF = async (pdf) => {
     let foundPage = null;
     let text = '';
@@ -46,13 +60,24 @@ const Resultzone = () => {
       if (/Ashulia Private Institute of Science and Technology/i.test(pageText)) {
         foundPage = i;
       }
+
+      // Extract semester and regulation
+      const semesterMatch = /(\d+)(?:th|st|nd|rd)\s*Semester/i.exec(pageText);
+      const regulationMatch = /(\d{4})\s*Regulation/i.exec(pageText);
+
+      if (semesterMatch) {
+        setSemester(semesterMatch[1]);
+      }
+
+      if (regulationMatch) {
+        setRegulation(regulationMatch[1]);
+      }
     }
 
     setPdfText(text);
     return foundPage;
   };
 
-  // Extract roll numbers and their associated information from text
   const extractRollInfo = (text) => {
     const rollPattern = /(\d{6})\s*\{\s*([^}]*)\s*\}/g;
     const numericPattern = /(\d{6})\s*\(\s*([\d.]+)\s*\)/g;
@@ -60,7 +85,6 @@ const Resultzone = () => {
     const rollData = {};
     let match;
 
-    // Process detailed roll number entries
     while ((match = rollPattern.exec(text)) !== null) {
       const rollNumber = match[1];
       const info = match[2].trim();
@@ -70,7 +94,6 @@ const Resultzone = () => {
       rollData[rollNumber].push(info);
     }
 
-    // Process numeric values
     while ((match = numericPattern.exec(text)) !== null) {
       const rollNumber = match[1];
       const value = match[2];
@@ -83,7 +106,6 @@ const Resultzone = () => {
     return rollData;
   };
 
-  // Handle successful PDF load
   const onLoadSuccess = async (pdf) => {
     const pageNumber = await extractTextFromPDF(pdf);
 
@@ -98,36 +120,27 @@ const Resultzone = () => {
   const getStudentName = (rollNumber) => {
     const student = students.find(student => student.roll === rollNumber);
     return student ? student.name : 'No student found';
-};
-  // Search for roll number information
+  };
+
   const handleRollNumberSearch = () => {
     const rollData = extractRollInfo(pdfText);
     const info = rollData[rollNumber] ? rollData[rollNumber].join(', ') : 'Roll number not found.';
     setRollInfo(info);
     setStudentName(getStudentName(rollNumber));
-
   };
 
-  
-  // Function to transform the data
   const transformData = (data) => {
-    // Split the string into an array of items
     const items = data.split(', ').map((item, index) => {
-      // Replace "(T)" with "(Theory)" and "(P)" with "(Practical)"
       let newItem = item.replace("(T)", "(Theory)");
       newItem = newItem.replace("(P)", "(Practical)");
       newItem = newItem.replace("(T,P)", "(Theory, Practical)");
-      // Return the sequential number followed by the transformed item
       return `${index + 1}. ${newItem}`;
     });
 
     return items;
   };
 
-  // Get the transformed data
   const transformedData = transformData(rollInfo);
-
-
 
   return (
     <div>
@@ -145,16 +158,20 @@ const Resultzone = () => {
           placeholder="Enter roll number"
         />
         <button type="button" onClick={handleRollNumberSearch}>Search</button>
-        {rollInfo && <p>{studentName} -- {rollNumber}: {rollInfo}</p>}
+        {
+          rollInfo && (
+            <div>
+              <h1>{studentName} -- {rollNumber}</h1>
+              <div>
+                {transformedData.map((item, index) => (
+                  <p key={index}>{item}</p>
+                ))}
+              </div>
+            </div>
+          )
+        }
       </div>
-      <div>
-      <h1>Transformed Data</h1>
-      <ul>
-        {transformedData.map((item, index) => (
-          <li key={index}>{item}</li>
-        ))}
-      </ul>
-    </div>
+     
       {selectedFile && (
         <Document
           file={selectedFile}
@@ -169,6 +186,8 @@ const Resultzone = () => {
       )}
 
       {result && <p>{result}</p>}
+      {semester && <p><strong>Semester:</strong> {semester}</p>}
+      {regulation && <p><strong>Regulation:</strong> {regulation}</p>}
     </div>
   );
 };
