@@ -6,7 +6,7 @@ import 'react-pdf/dist/esm/Page/TextLayer.css';
 // Set the workerSrc for pdfjs-dist
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const Result = () => {
+const ResultTry = () => {
   const [selectedFile, setSelectedFile] = useState(null);
   const [targetPage, setTargetPage] = useState(null);
   const [pdfText, setPdfText] = useState('');
@@ -17,6 +17,8 @@ const Result = () => {
   const [result, setResult] = useState('');
   const [subjectList, setSubjectList] = useState([]); // State to hold subjects.json data
   const [resultsArray, setResultsArray] = useState([]); // New state for results array
+  const [progress, setProgress] = useState(0); // Progress state for loader
+  const [estimatedTime, setEstimatedTime] = useState(0); // Estimated time state
 
   // Fetch subjects.json on component mount
   useEffect(() => {
@@ -101,49 +103,53 @@ const Result = () => {
   }, []);
 
   const extractDetails = async (pdf) => {
-    let foundPage = null;
+    setLoading(true); // Set loading to true when starting extraction
     let text = '';
+    const numPages = pdf.numPages;
 
     try {
-      for (let i = 1; i <= pdf.numPages; i++) {
-        const pageText = await extractTextFromPage(pdf, i);
-        if (/Ashulia Private Institute of Science and Technology/i.test(pageText)) {
-          foundPage = i;
-          text = pageText;
+      // Record the start time
+      const startTime = Date.now();
 
-          // Extract semester and regulation
-          const semesterMatch = /(\d+)(?:th|st|nd|rd)\s*Semester/i.exec(pageText);
-          const regulationMatch = /(\d{4})\s*Regulation/i.exec(pageText);
+      // Use Promise.all to extract text from all pages simultaneously for faster processing
+      const pagePromises = Array.from({ length: numPages }, (_, i) => extractTextFromPage(pdf, i + 1));
+      const pageTexts = await Promise.all(pagePromises);
+      text = pageTexts.join(' ');
 
-          if (semesterMatch) {
-            setSemester(semesterMatch[1]);
-          }
+      // Calculate the time taken for each page
+      const timePerPage = (Date.now() - startTime) / numPages;
 
-          if (regulationMatch) {
-            setRegulation(regulationMatch[1]);
-          }
+      // Set an estimated time for remaining pages (if any)
+      setEstimatedTime(timePerPage * numPages);
 
-          // Extract roll numbers and associated data
-          const rollDataFromPage = extractRollInfo(pageText);
-          setRollData(rollDataFromPage);
+      // Update progress with each page processed
+      setProgress(100);
 
-          break; // Stop after finding the relevant page
-        }
+      // Extract semester and regulation from the combined text
+      const semesterMatch = /(\d+)(?:th|st|nd|rd)\s*Semester/i.exec(text);
+      const regulationMatch = /(\d{4})\s*Regulation/i.exec(text);
+
+      if (semesterMatch) {
+        setSemester(semesterMatch[1]);
       }
 
-      if (foundPage) {
-        setTargetPage(foundPage);
-        setPdfText(text);
-      } else {
-        setResult('The page with "Ashulia Private Institute of Science and Technology" was not found.');
+      if (regulationMatch) {
+        setRegulation(regulationMatch[1]);
       }
+
+      // Extract roll numbers and associated data from the entire text
+      const rollDataFromPage = extractRollInfo(text);
+      setRollData(rollDataFromPage);
     } catch (error) {
       console.error('Error while extracting text:', error);
       setResult('Failed to extract text from PDF.');
+    } finally {
+      setLoading(false); // Set loading to false when done
     }
   };
 
   const onLoadSuccess = async (pdf) => {
+    setProgress(0); // Reset progress when loading starts
     setLoading(true);
     await extractDetails(pdf);
     setLoading(false);
@@ -152,7 +158,7 @@ const Result = () => {
   // Helper function to get subject name by code and filter by semester
   const getSubjectNameAndSemester = (code) => {
     const subject = subjectList.find(subject => subject.code === code);
-    
+
     if (subject && parseInt(subject.semester) <= parseInt(semester)) { // Match subject based on page semester
       return `${subject.name} (${subject.semester})`; // Display subject name and semester
     }
@@ -164,7 +170,7 @@ const Result = () => {
     const generatedArray = rollData.map((data) => {
       return {
         roll: data.roll,
-        referredSubjects: data.referred_subjects ? 
+        referredSubjects: data.referred_subjects ?
           data.referred_subjects.map(subject => {
             const subjectDetails = subjectList.find(sub => sub.code === subject.code);
             return {
@@ -177,11 +183,26 @@ const Result = () => {
         gpa: data.gpa !== null ? data.gpa : 'N/A',
       };
     });
-    
 
     setResultsArray(generatedArray); // Set the results array state
   }, [rollData, semester, subjectList]); // Depend on rollData, semester, and subjectList
-console.log(resultsArray);
+
+  console.log(resultsArray);
+
+  // Download the array
+  const downloadJSON = () => {
+    const json = JSON.stringify(resultsArray, null, 2); // Format JSON
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'results.json'; // Name of the downloaded file
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url); // Clean up the URL object
+  };
 
   return (
     <div>
@@ -191,6 +212,14 @@ console.log(resultsArray);
       </form>
       {semester && <p><strong>Semester:</strong> {semester}</p>}
       {regulation && <p><strong>Regulation:</strong> {regulation}</p>}
+      <button onClick={downloadJSON}>Download JSON</button>
+      {loading && (
+        <div>
+          <p>Loading... Please wait.</p>
+          <p>Progress: {progress}%</p>
+          <p>Estimated time remaining: {Math.ceil(estimatedTime / 1000)} seconds</p>
+        </div>
+      )}
       {rollData.length > 0 && (
         <table border='1' cellPadding='5' cellSpacing='0'>
           <thead>
@@ -243,23 +272,8 @@ console.log(resultsArray);
           </tbody>
         </table>
       )}
-
-      {selectedFile && (
-        <Document
-          file={selectedFile}
-          onLoadSuccess={onLoadSuccess}
-          onLoadError={(error) => {
-            console.error('Error while loading document:', error);
-            setResult('Failed to load PDF file.');
-          }}
-        >
-          {targetPage && <Page pageNumber={targetPage} />}
-        </Document>
-      )}
-      {loading && <p>Loading...</p>}
-      {result && <p>{result}</p>}
     </div>
   );
 };
 
-export default Result;
+export default ResultTry;

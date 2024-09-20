@@ -1,0 +1,1368 @@
+[{
+  "_id": "65366c1a0f7ca5ae73ad4ef5",
+  "name": "Engineering  Drawing",
+  "code": "21011",
+  "credit": "2",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65366d080f7ca5ae73ad4ef6",
+  "name": "Bangla-1",
+  "code": "25711",
+  "credit": "2",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65366d760f7ca5ae73ad4ef7",
+  "name": "English-I",
+  "code": "25712",
+  "credit": "2",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65366da20f7ca5ae73ad4ef8",
+  "name": "Mathematics -I ",
+  "code": "25911",
+  "credit": "4",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65366dcc0f7ca5ae73ad4ef9",
+  "name": "Physics -I ",
+  "code": "25912",
+  "credit": "4",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65366de90f7ca5ae73ad4efa",
+  "name": "Computer Office  Application",
+  "code": "26611",
+  "credit": "2",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65366e090f7ca5ae73ad4efb",
+  "name": "Basic Electricity",
+  "code": "26711",
+  "credit": "4",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65366e660f7ca5ae73ad4efc",
+  "name": "Engineering Drawing",
+  "code": "21011",
+  "credit": "2",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65366e7e0f7ca5ae73ad4efd",
+  "name": "Bangla-I",
+  "code": "25711",
+  "credit": "2",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65366ea20f7ca5ae73ad4efe",
+  "name": "English-I",
+  "code": "25712",
+  "credit": "2",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65366ee80f7ca5ae73ad4eff",
+  "name": "Social Science",
+  "code": "25811",
+  "credit": "2",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65366f010f7ca5ae73ad4f00",
+  "name": "Mathematics -I",
+  "code": "25911",
+  "credit": "4",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65366f210f7ca5ae73ad4f01",
+  "name": "Chemistry",
+  "code": "25913",
+  "credit": "4",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65366f3d0f7ca5ae73ad4f02",
+  "name": "Civil Engineering Materials",
+  "code": "26411",
+  "credit": "3",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65366f540f7ca5ae73ad4f03",
+  "name": "Basic Electricity",
+  "code": "26711",
+  "credit": "4",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65366fca0f7ca5ae73ad4f04",
+  "name": "Engineering Drawing",
+  "code": "21011",
+  "credit": "2",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65366fea0f7ca5ae73ad4f05",
+  "name": "Bangla-I ",
+  "code": "25711",
+  "credit": "1",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "6536701a0f7ca5ae73ad4f07",
+  "name": "Physical Education  & Life skill  Development",
+  "code": "25812",
+  "credit": "1",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653670320f7ca5ae73ad4f08",
+  "name": "Mathematics -I",
+  "code": "25911",
+  "credit": "4",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "6536705e0f7ca5ae73ad4f09",
+  "name": "Physics-I ",
+  "code": "25912",
+  "credit": "4",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653670760f7ca5ae73ad4f0a",
+  "name": "Basic Electricity",
+  "code": "26711",
+  "credit": "4",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "6536708a0f7ca5ae73ad4f0b",
+  "name": "Electrical  Engineering  Materials",
+  "code": "26712",
+  "credit": "2",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653671660f7ca5ae73ad4f0c",
+  "name": "English-I",
+  "code": "25712",
+  "credit": "2",
+  "semester": "1st",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653671bb0f7ca5ae73ad4f0d",
+  "name": "Bangla -II",
+  "code": "25721",
+  "credit": "2",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653671d50f7ca5ae73ad4f0e",
+  "name": "English-II",
+  "code": "25722",
+  "credit": "1",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653671f30f7ca5ae73ad4f0f",
+  "name": "Physical Education  & Life Skills  Development",
+  "code": "25812",
+  "credit": "1",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "6536720e0f7ca5ae73ad4f10",
+  "name": "Physics -I",
+  "code": "25912",
+  "credit": "4",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653672270f7ca5ae73ad4f11",
+  "name": "Mathematics-II",
+  "code": "25921",
+  "credit": "4",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653672930f7ca5ae73ad4f12",
+  "name": "Civil Engineering  Drawing",
+  "code": "26421",
+  "credit": "3",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653672cb0f7ca5ae73ad4f13",
+  "name": "Basic Electronics",
+  "code": "26811",
+  "credit": "3",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653673010f7ca5ae73ad4f14",
+  "name": "Basic Workshop  Practice",
+  "code": "27011",
+  "credit": "1",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653673890f7ca5ae73ad4f15",
+  "name": "Bangla -II ",
+  "code": "25721",
+  "credit": "2",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653673a30f7ca5ae73ad4f16",
+  "name": "English-II",
+  "code": "25722",
+  "credit": "2",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653673ba0f7ca5ae73ad4f17",
+  "name": "Mathematics-II",
+  "code": "25921",
+  "credit": "4",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653673d30f7ca5ae73ad4f18",
+  "name": "Physics -II",
+  "code": "25922",
+  "credit": "4",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653673f30f7ca5ae73ad4f19",
+  "name": "Electrical Circuits-I",
+  "code": "26721",
+  "credit": "4",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "6536740c0f7ca5ae73ad4f1a",
+  "name": "Electrical  Engineering  Drawing",
+  "code": "26722",
+  "credit": "3",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653674310f7ca5ae73ad4f1b",
+  "name": "Basic Electronics",
+  "code": "26811",
+  "credit": "3",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653674710f7ca5ae73ad4f1c",
+  "name": "Bangla -II ",
+  "code": "25721",
+  "credit": "2",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653674870f7ca5ae73ad4f1d",
+  "name": "English-II",
+  "code": "25722",
+  "credit": "2",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653674990f7ca5ae73ad4f1e",
+  "name": "Physical Education  & Life skills  Development",
+  "code": "25812",
+  "credit": "1",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653674b00f7ca5ae73ad4f1f",
+  "name": "Chemistry ",
+  "code": "25913",
+  "credit": "3",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653674c60f7ca5ae73ad4f20",
+  "name": "Mathematics-II",
+  "code": "25921",
+  "credit": "4",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653674dc0f7ca5ae73ad4f21",
+  "name": "Python  Programming ",
+  "code": "28521",
+  "credit": "3",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653674fa0f7ca5ae73ad4f22",
+  "name": "Computer Graphics  Design-I",
+  "code": "28522",
+  "credit": "2",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653675100f7ca5ae73ad4f23",
+  "name": "Basic Electronics",
+  "code": "26811",
+  "credit": "3",
+  "semester": "2nd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65367c7b0f7ca5ae73ad4f24",
+  "name": "Business  Communication",
+  "code": "25831",
+  "credit": "2",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65367c930f7ca5ae73ad4f25",
+  "name": "Physics-II",
+  "code": "25922",
+  "credit": "4",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65367caf0f7ca5ae73ad4f26",
+  "name": "Mathematics-III ",
+  "code": "25931",
+  "credit": "4",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65367cd50f7ca5ae73ad4f27",
+  "name": "Structural  Mechanics",
+  "code": "26431",
+  "credit": "3",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65367cfc0f7ca5ae73ad4f28",
+  "name": "Surveying-I",
+  "code": "26432",
+  "credit": "3",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65367d250f7ca5ae73ad4f29",
+  "name": "Construction  Process-I",
+  "code": "26433",
+  "credit": "3",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65367d5e0f7ca5ae73ad4f2a",
+  "name": "Computer Office  Application",
+  "code": "28511",
+  "credit": "2",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65367dda0f7ca5ae73ad4f2c",
+  "name": "Mathematics-III",
+  "code": "25931",
+  "credit": "4",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65367e0b0f7ca5ae73ad4f2d",
+  "name": "Chemistry",
+  "code": "25913",
+  "credit": "4",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65367e280f7ca5ae73ad4f2e",
+  "name": "Computer Office  Applications",
+  "code": "28511",
+  "credit": "2",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65367e400f7ca5ae73ad4f2f",
+  "name": "Electrical Circuits-II",
+  "code": "26731",
+  "credit": "4",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65367e560f7ca5ae73ad4f30",
+  "name": "Electrical Appliances",
+  "code": "26732",
+  "credit": "3",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65367e820f7ca5ae73ad4f31",
+  "name": "Industrial Electronics",
+  "code": "26833",
+  "credit": "4",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65367ed70f7ca5ae73ad4f32",
+  "name": "Social Science",
+  "code": "25811",
+  "credit": "2",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65367eef0f7ca5ae73ad4f33",
+  "name": "Physics -II",
+  "code": "25922",
+  "credit": "4",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65367f060f7ca5ae73ad4f34",
+  "name": "Mathematics-III",
+  "code": "25931",
+  "credit": "4",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65367f1e0f7ca5ae73ad4f35",
+  "name": "Application Development  Using Python ",
+  "code": "28531",
+  "credit": "3",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65367f4c0f7ca5ae73ad4f36",
+  "name": "Computer Graphics  Design-II ",
+  "code": "28532",
+  "credit": "1",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65367f7d0f7ca5ae73ad4f37",
+  "name": "IT Support Services",
+  "code": "28533",
+  "credit": "4",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "65367faf0f7ca5ae73ad4f38",
+  "name": "Digital Electronics-I ",
+  "code": "26831",
+  "credit": "3",
+  "semester": "3rd",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653680600f7ca5ae73ad4f39",
+  "name": "Business  Communication",
+  "code": "25831",
+  "credit": "2",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653680780f7ca5ae73ad4f3a",
+  "name": "Java Programming",
+  "code": "28541",
+  "credit": "3",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653680920f7ca5ae73ad4f3b",
+  "name": "Data Structure &  Algorithm",
+  "code": "28542",
+  "credit": "3",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653680a90f7ca5ae73ad4f3c",
+  "name": "Computer Peripherals  & Interfacing",
+  "code": "28543",
+  "credit": "4",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653680d10f7ca5ae73ad4f3d",
+  "name": "Web Design &  Development-I",
+  "code": "28544",
+  "credit": "3",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653680f70f7ca5ae73ad4f3e",
+  "name": "Digital Electronics-II ",
+  "code": "26841",
+  "credit": "3",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653681120f7ca5ae73ad4f3f",
+  "name": "Environmental Studies",
+  "code": "29041",
+  "credit": "3",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "6536840e0f7ca5ae73ad4f40",
+  "name": "Accounting",
+  "code": "25841",
+  "credit": "2",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653684ae0f7ca5ae73ad4f42",
+  "name": "Application Development Using Java",
+  "code": "28551",
+  "credit": "3",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653684c50f7ca5ae73ad4f43",
+  "name": "Web Design & Development-II",
+  "code": "28552",
+  "credit": "3",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653684ed0f7ca5ae73ad4f44",
+  "name": "Computer Architecture &  Microprocessor",
+  "code": "28553",
+  "credit": "4",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "6536857f0f7ca5ae73ad4f45",
+  "name": "Data Communication",
+  "code": "28554",
+  "credit": "4",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653685b50f7ca5ae73ad4f46",
+  "name": "Operating System",
+  "code": "28555",
+  "credit": "3",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653685cf0f7ca5ae73ad4f47",
+  "name": "Project Work-I",
+  "code": "28556",
+  "credit": "1",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653685ee0f7ca5ae73ad4f48",
+  "name": "Principles of Marketing",
+  "code": "25851",
+  "credit": "2",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653686020f7ca5ae73ad4f49",
+  "name": "Industrial Management",
+  "code": "25852",
+  "credit": "2",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "6536861b0f7ca5ae73ad4f4a",
+  "name": "Database Management System",
+  "code": "28561",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "6536875f0f7ca5ae73ad4f4b",
+  "name": "Computer Networking",
+  "code": "28562",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653687850f7ca5ae73ad4f4c",
+  "name": "Sensor & IoT System",
+  "code": "28563",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653687aa0f7ca5ae73ad4f4d",
+  "name": "Microcontroller Based System Design &  Development",
+  "code": "28564",
+  "credit": "4",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653687d20f7ca5ae73ad4f4e",
+  "name": "Surveillance Security System",
+  "code": "28565",
+  "credit": "2",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653687ec0f7ca5ae73ad4f4f",
+  "name": "Web Development Project",
+  "code": "28566",
+  "credit": "1",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653688250f7ca5ae73ad4f50",
+  "name": "Innovation & Entrepreneurship",
+  "code": "25853",
+  "credit": "2",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "6536883b0f7ca5ae73ad4f51",
+  "name": "Digital Marketing Technique",
+  "code": "28571",
+  "credit": "3",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653688510f7ca5ae73ad4f52",
+  "name": "Network Administration & Services",
+  "code": "28572",
+  "credit": "4",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653688980f7ca5ae73ad4f53",
+  "name": "Cyber Security & Ethics",
+  "code": "28573",
+  "credit": "3",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653688af0f7ca5ae73ad4f54",
+  "name": "Apps Development Project",
+  "code": "28574",
+  "credit": "2",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653688c50f7ca5ae73ad4f55",
+  "name": "Multimedia & Animation",
+  "code": "28575",
+  "credit": "3",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "653688d80f7ca5ae73ad4f56",
+  "name": "Project Work-II",
+  "code": "28576",
+  "credit": "2",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Computer Science & Technology"
+},
+{
+  "_id": "6536892b0f7ca5ae73ad4f57",
+  "name": "Accounting",
+  "code": "25841",
+  "credit": "2",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653689480f7ca5ae73ad4f58",
+  "name": "Construction Process-II ",
+  "code": "26441",
+  "credit": "3",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653689620f7ca5ae73ad4f59",
+  "name": "Estimating & Costing-I",
+  "code": "26442",
+  "credit": "3",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "6536897d0f7ca5ae73ad4f5a",
+  "name": "Civil CAD-I",
+  "code": "26443",
+  "credit": "2",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653689af0f7ca5ae73ad4f5b",
+  "name": "Surveying-II",
+  "code": "26444",
+  "credit": "3",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653689cf0f7ca5ae73ad4f5c",
+  "name": "Geotechnical Engineering",
+  "code": "26445",
+  "credit": "3",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653689e40f7ca5ae73ad4f5d",
+  "name": "Hydrology",
+  "code": "26446",
+  "credit": "3",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "653689fd0f7ca5ae73ad4f5e",
+  "name": "Wood Workshop Practice",
+  "code": "26521",
+  "credit": "2",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368a1e0f7ca5ae73ad4f5f",
+  "name": "Industrial Management",
+  "code": "25852",
+  "credit": "2",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368a390f7ca5ae73ad4f60",
+  "name": "Foundation Engineering",
+  "code": "26451",
+  "credit": "3",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368a520f7ca5ae73ad4f61",
+  "name": "Civil CAD-II",
+  "code": "26452",
+  "credit": "3",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368a680f7ca5ae73ad4f62",
+  "name": "Surveying-III",
+  "code": "26453",
+  "credit": "3",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368a860f7ca5ae73ad4f63",
+  "name": "Theory of Structure",
+  "code": "26454",
+  "credit": "3",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368ac70f7ca5ae73ad4f64",
+  "name": "Water Supply Engineering",
+  "code": "26455",
+  "credit": "3",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368ade0f7ca5ae73ad4f65",
+  "name": "Hydraulics",
+  "code": "26456",
+  "credit": "3",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368b2e0f7ca5ae73ad4f66",
+  "name": "Water Resources Engineering",
+  "code": "26461",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368b440f7ca5ae73ad4f67",
+  "name": "Advance Surveying",
+  "code": "26462",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368b620f7ca5ae73ad4f68",
+  "name": "Transportation Engineering-I",
+  "code": "26463",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368b810f7ca5ae73ad4f69",
+  "name": "Design of Structure-I",
+  "code": "26464",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368b980f7ca5ae73ad4f6a",
+  "name": "Steel Structures",
+  "code": "28863",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368bae0f7ca5ae73ad4f6b",
+  "name": "Advanced Construction",
+  "code": "28861",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368bc30f7ca5ae73ad4f6c",
+  "name": "Environmental Studies",
+  "code": "29041",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368be90f7ca5ae73ad4f6d",
+  "name": "Principle of Marketing",
+  "code": "25851",
+  "credit": "2",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368c030f7ca5ae73ad4f6e",
+  "name": "Innovation & Entrepreneurship",
+  "code": "25853",
+  "credit": "2",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368c1c0f7ca5ae73ad4f6f",
+  "name": "Civil Engineering Project",
+  "code": "26471",
+  "credit": "2",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368c3b0f7ca5ae73ad4f70",
+  "name": "Sanitary Engineering",
+  "code": "26472",
+  "credit": "3",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368c550f7ca5ae73ad4f71",
+  "name": "Transportation Engineering-II",
+  "code": "26473",
+  "credit": "3",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368c780f7ca5ae73ad4f72",
+  "name": "Design of Structure-II",
+  "code": "26474",
+  "credit": "3",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368c960f7ca5ae73ad4f73",
+  "name": "Estimating & Costing-II",
+  "code": "26475",
+  "credit": "3",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368cb00f7ca5ae73ad4f74",
+  "name": "Construction Management &  Documentation",
+  "code": "28871",
+  "credit": "3",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Civil Technology"
+},
+{
+  "_id": "65368d0f0f7ca5ae73ad4f75",
+  "name": "Social Science",
+  "code": "25811",
+  "credit": "2",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368d260f7ca5ae73ad4f76",
+  "name": "Accounting",
+  "code": "25841",
+  "credit": "2",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368d3f0f7ca5ae73ad4f77",
+  "name": "Electrical Installation,Planning  and Estimating",
+  "code": "26741",
+  "credit": "4",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368d5d0f7ca5ae73ad4f78",
+  "name": "DC Machine",
+  "code": "26742",
+  "credit": "4",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368d740f7ca5ae73ad4f79",
+  "name": "Electrical Engineering Project-I",
+  "code": "26743",
+  "credit": "2",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368d910f7ca5ae73ad4f7a",
+  "name": "Digital Electronics",
+  "code": "26845",
+  "credit": "4",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368db10f7ca5ae73ad4f7b",
+  "name": "Applied Mechanics",
+  "code": "27044",
+  "credit": "3",
+  "semester": "4th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368dce0f7ca5ae73ad4f7c",
+  "name": "Principle of Marketing",
+  "code": "25851",
+  "credit": "2",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368de50f7ca5ae73ad4f7d",
+  "name": "Industrial Management",
+  "code": "25852",
+  "credit": "2",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368e120f7ca5ae73ad4f7e",
+  "name": "Generation of Electrical Power",
+  "code": "26751",
+  "credit": "4",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368e340f7ca5ae73ad4f7f",
+  "name": "Electrical & Electronic  Measurements-I",
+  "code": "26752",
+  "credit": "3",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368e490f7ca5ae73ad4f80",
+  "name": "Testing and Maintannance of  Electrical Equipments",
+  "code": "26753",
+  "credit": "3",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368e620f7ca5ae73ad4f81",
+  "name": "Electrical Engineering Project-II",
+  "code": "26754",
+  "credit": "2",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368e8c0f7ca5ae73ad4f82",
+  "name": "Microprocessor &  Microcontroller",
+  "code": "26853",
+  "credit": "4",
+  "semester": "5th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368eda0f7ca5ae73ad4f83",
+  "name": "Progamming in C",
+  "code": "28567",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368ef30f7ca5ae73ad4f84",
+  "name": "AC Machine-I",
+  "code": "26761",
+  "credit": "4",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368f120f7ca5ae73ad4f85",
+  "name": "Transmission and Distribution of  Electrical Power-I",
+  "code": "26762",
+  "credit": "4",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368f3e0f7ca5ae73ad4f86",
+  "name": "Electrical & Electronic  Measurements-II",
+  "code": "26763",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368f560f7ca5ae73ad4f87",
+  "name": "Communication Engineering",
+  "code": "26842",
+  "credit": "4",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368faa0f7ca5ae73ad4f88",
+  "name": "Environmental Studies",
+  "code": "29041",
+  "credit": "3",
+  "semester": "6th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368fce0f7ca5ae73ad4f89",
+  "name": "Business Communication",
+  "code": "25831",
+  "credit": "2",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "65368fe70f7ca5ae73ad4f8a",
+  "name": "Innovation & Entrepreneurship",
+  "code": "25853",
+  "credit": "2",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653690030f7ca5ae73ad4f8b",
+  "name": "AC Machine-II",
+  "code": "26771",
+  "credit": "4",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "6536903e0f7ca5ae73ad4f8c",
+  "name": "Transmission and Distribution of  Electrical Power-II",
+  "code": "26772",
+  "credit": "4",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653690520f7ca5ae73ad4f8d",
+  "name": "Switch Gear and Protection",
+  "code": "26773",
+  "credit": "4",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "653690670f7ca5ae73ad4f8e",
+  "name": "Electrical Engineering Project-III",
+  "code": "26774",
+  "credit": "2",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+},
+{
+  "_id": "6536907d0f7ca5ae73ad4f8f",
+  "name": "Automation Engineering & PLC",
+  "code": "26875",
+  "credit": "4",
+  "semester": "7th",
+  "probidhan": "2022",
+  "department": "Electrical Technology"
+}]
